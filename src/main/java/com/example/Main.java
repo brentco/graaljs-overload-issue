@@ -7,6 +7,9 @@ import org.graalvm.polyglot.ResourceLimits;
 
 import java.io.IOException;
 
+/**
+ * In Builder, play with @Api to enable and disable certain methods to the script in resources.
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("Starting context...");
